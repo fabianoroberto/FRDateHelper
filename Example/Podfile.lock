@@ -1,0 +1,16 @@
+PODS:
+  - FRDateHelper (0.1.0)
+
+DEPENDENCIES:
+  - FRDateHelper (from `../`)
+
+EXTERNAL SOURCES:
+  FRDateHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FRDateHelper: 0e16a500ac4c0843460f30ab7841447cb8096070
+
+PODFILE CHECKSUM: 3f451fc58585a6fe85dfeb6f99737fe60de01171
+
+COCOAPODS: 1.0.0

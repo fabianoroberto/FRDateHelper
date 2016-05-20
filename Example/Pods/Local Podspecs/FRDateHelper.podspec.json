@@ -1,0 +1,19 @@
+{
+  "name": "FRDateHelper",
+  "version": "0.1.0",
+  "summary": "A short description of FRDateHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FRDateHelper",
+  "license": "MIT",
+  "authors": {
+    "Fabiano Roberto": "dj.thief@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FRDateHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FRDateHelper/Classes/**/*"
+}
