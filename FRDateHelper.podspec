@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = "https://github.com/fabianoroberto/FRDateHelper"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Fabiano Roberto" => "dj.thief@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FRDateHelper.git", :tag => s.version.to_s }
+  s.author           = { "Fabiano Roberto" => "dj.fabianoroberto@gmail.com" }
+  s.source           = { :git => "https://github.com/fabianoroberto/FRDateHelper.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
