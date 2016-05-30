@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DateHelper
+@interface DateHelper : NSObject
 
 + (NSCalendar *) getCalendar;
 
