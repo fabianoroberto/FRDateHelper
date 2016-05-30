@@ -1,5 +1,5 @@
 //
-//  NSObject+DateHelper.h
+//  DateHelper.h
 //  Pods
 //
 //  Created by Fabiano Roberto on 20/05/16.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (DateHelper)
+@interface DateHelper
 
 + (NSCalendar *) getCalendar;
 

@@ -12,8 +12,8 @@
 		77C56B4AAEBCED28D7604BD5332D58E5 /* Pods-FRDateHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C03772D49A581EB0BCAC52918305C /* Pods-FRDateHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79B88583E73DA7E863E1E6AAB2656E47 /* FRDateHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C155459E65F80EA80472E3354A50CF22 /* FRDateHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81D05270DA0E1957550D6A59A715BDAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		8FC0840A1CEEFDB900E8B63C /* NSObject+DateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC084081CEEFDB900E8B63C /* NSObject+DateHelper.h */; };
-		8FC0840B1CEEFDB900E8B63C /* NSObject+DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC084091CEEFDB900E8B63C /* NSObject+DateHelper.m */; };
+		8FC0840A1CEEFDB900E8B63C /* DateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC084081CEEFDB900E8B63C /* DateHelper.h */; };
+		8FC0840B1CEEFDB900E8B63C /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC084091CEEFDB900E8B63C /* DateHelper.m */; };
 		FDA54E59E46430CE3F6EF30F9F0F99E4 /* FRDateHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E6926BF39FBB97275F91BF16E5143 /* FRDateHelper-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +34,8 @@
 		6759B7FA75FC0B59E0315DBC06C2E082 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D5E6926BF39FBB97275F91BF16E5143 /* FRDateHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRDateHelper-dummy.m"; sourceTree = "<group>"; };
 		8E9C03772D49A581EB0BCAC52918305C /* Pods-FRDateHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRDateHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8FC084081CEEFDB900E8B63C /* NSObject+DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DateHelper.h"; sourceTree = "<group>"; };
-		8FC084091CEEFDB900E8B63C /* NSObject+DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DateHelper.m"; sourceTree = "<group>"; };
+		8FC084081CEEFDB900E8B63C /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		8FC084091CEEFDB900E8B63C /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
 		9306EDC65611C416FB86150721CADFE9 /* FRDateHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRDateHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		961F4884458776DAEC84EAB03A6C7695 /* Pods-FRDateHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRDateHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -120,8 +120,8 @@
 		7FBBFA440ECC3258597DE1FD97B332C6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8FC084081CEEFDB900E8B63C /* NSObject+DateHelper.h */,
-				8FC084091CEEFDB900E8B63C /* NSObject+DateHelper.m */,
+				8FC084081CEEFDB900E8B63C /* DateHelper.h */,
+				8FC084091CEEFDB900E8B63C /* DateHelper.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC0840A1CEEFDB900E8B63C /* NSObject+DateHelper.h in Headers */,
+				8FC0840A1CEEFDB900E8B63C /* DateHelper.h in Headers */,
 				79B88583E73DA7E863E1E6AAB2656E47 /* FRDateHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA54E59E46430CE3F6EF30F9F0F99E4 /* FRDateHelper-dummy.m in Sources */,
-				8FC0840B1CEEFDB900E8B63C /* NSObject+DateHelper.m in Sources */,
+				8FC0840B1CEEFDB900E8B63C /* DateHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

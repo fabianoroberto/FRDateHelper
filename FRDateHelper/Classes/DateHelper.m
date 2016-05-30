@@ -1,14 +1,14 @@
 //
-//  NSObject+DateHelper.m
+//  DateHelper.m
 //  Pods
 //
 //  Created by Fabiano Roberto on 20/05/16.
 //
 //
 
-#import "NSObject+DateHelper.h"
+#import "DateHelper.h"
 
-@implementation NSObject (DateHelper)
+@implementation DateHelper
 
 #pragma mark - Calendar helpers
 
