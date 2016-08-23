@@ -22,7 +22,7 @@ pod "FRDateHelper"
 
 ## Author
 
-Fabiano Roberto, dj.fabianoroberto@gmail.com
+Fabiano Roberto, dr.fabianoroberto@gmail.com
 
 ## License
 
